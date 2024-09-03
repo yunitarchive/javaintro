@@ -22,6 +22,16 @@ public class Main {
         InitialName myInitial = new InitialName("Halohai Aloha");
         myInitial.exhibitInitial();
         Geometry.compareAreaWithCircle(circle, rectangle);
+
+        //Day 2
+        //No.1
+        Temperature temp = new Temperature(39);
+        temp.exhibitTemptCelcius();
+        //No.2
+        ConfCentiToKm converter = new ConfCentiToKm(100000);
+        double kilometers = converter.convertToKm();
+        System.out.println("The value in kilometers is: " + kilometers);
+
     }
 
 
