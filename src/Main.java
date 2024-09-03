@@ -6,9 +6,10 @@ public class Main {
         // to see how IntelliJ IDEA suggests fixing it.
         System.out.printf("Hello and welcome!");
 
-        Rectangle rectangle = new Rectangle(5, 3);
-
-        rectangle.exhibitArea();
+      //  Rectangle rectangle = new Rectangle(5, 3);
+        Rectangle rectangle = new Rectangle();
+        rectangle.calculateArea(5,3);
+        //rectangle.exhibitArea();
 
         Circle circle = new Circle(5);
         circle.exhibitDiameter();
@@ -20,6 +21,7 @@ public class Main {
 
         InitialName myInitial = new InitialName("Halohai Aloha");
         myInitial.exhibitInitial();
+        Geometry.compareAreaWithCircle(circle, rectangle);
     }
 
 
